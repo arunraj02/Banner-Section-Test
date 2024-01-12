@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background: #13151980 url(images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 95px;
+    height: 95px;
+    line-height: 95px;
+    border: solid 1px #ffffff;
+    border-radius: 100%;
+}
+
+.logo i{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    padding: 34px 0px;
+}
+
+.content {
+    border-style: solid;
+    border-color: #ffffff;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    max-width: 100%;
+    padding: 40px;
+    position: relative;
+    top: 55px;
+}
+
+.content h1{
+    color: #ffffff;
+    font-weight:500;
+    letter-spacing: 4px;
+    padding-bottom: 32px;
+}
+
+.content p {
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing:4px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.content p a{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+nav ul{
+      display: flex;
+	  margin-bottom: 0;
+	  list-style: none;
+	  padding-left: 0;
+	  border: solid 1px #ffffff;
+	  border-radius: 4px;
+}
+
+#header nav ul li {
+    padding-left: 0;
+    border-left: solid 1px #ffffff;
+}
+
+#header nav ul li:first-child {
+    border-left: 0;
+}
+
+#header nav ul li a {
+    display: block;
+    color: #ffffff;
+    min-width: 120px;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 20px 0 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+    border-bottom: 0;
+    text-decoration: none;
+}
+
+.logo::after {
+    content: "";
+    border-left: 1px solid #ffffff; 
+    height: 98px;
+    display: block;
+    margin-left: 44px;
+}
+
+.nav-bar::before{
+    content: "";
+    border-left: 1px solid #ffffff; 
+    height: 100px;
+    display: block;
+    margin-left: 241px;
+}
+
+.bottom p{
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight:300;
+}
+
+.bottom p a{
+    color: #ffffff;
+}
